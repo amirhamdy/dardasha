@@ -8,7 +8,7 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
   password: "fa692e49",
   database: "heroku_4b3bac0cdeb4318",
   entities: ["dist/**/*.entity{.ts,.js}"],
-  synchronize: true
+  synchronize: true,
 };
 
 export const typeOrmConfigLocal: TypeOrmModuleOptions = {
@@ -19,5 +19,5 @@ export const typeOrmConfigLocal: TypeOrmModuleOptions = {
   password: "",
   database: "dardasha",
   entities: ["dist/**/*.entity{.ts,.js}"],
-  synchronize: true
+  synchronize: true,
 };
